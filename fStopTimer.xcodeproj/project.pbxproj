@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		955AAE98272C836D00F02221 /* ExposureCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955AAE97272C836C00F02221 /* ExposureCalculatorViewModel.swift */; };
 		9581F7BF2727751600E70417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581F7BE2727751600E70417 /* AppDelegate.swift */; };
 		9581F7C12727751600E70417 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581F7C02727751600E70417 /* SceneDelegate.swift */; };
 		9581F7C32727751600E70417 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581F7C22727751600E70417 /* ViewController.swift */; };
 		9581F7C62727751600E70417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9581F7C42727751600E70417 /* Main.storyboard */; };
 		9581F7C82727751900E70417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9581F7C72727751900E70417 /* Assets.xcassets */; };
 		9581F7CB2727751900E70417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9581F7C92727751900E70417 /* LaunchScreen.storyboard */; };
+		9581F7D3272783BD00E70417 /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581F7D2272783BD00E70417 /* TimeView.swift */; };
+		9581F7D52729F6F600E70417 /* ExposureTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581F7D42729F6F600E70417 /* ExposureTimes.swift */; };
+		9581F7D7272A069700E70417 /* ExposureCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9581F7D6272A069600E70417 /* ExposureCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		955AAE97272C836C00F02221 /* ExposureCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureCalculatorViewModel.swift; sourceTree = "<group>"; };
 		9581F7BB2727751600E70417 /* fStopTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fStopTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9581F7BE2727751600E70417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9581F7C02727751600E70417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,10 @@
 		9581F7C72727751900E70417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9581F7CA2727751900E70417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9581F7CC2727751900E70417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9581F7D2272783BD00E70417 /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
+		9581F7D42729F6F600E70417 /* ExposureTimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureTimes.swift; sourceTree = "<group>"; };
+		9581F7D6272A069600E70417 /* ExposureCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureCalculator.swift; sourceTree = "<group>"; };
+		95F5FDB327BD963600E2FE2A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,7 @@
 		9581F7B22727751600E70417 = {
 			isa = PBXGroup;
 			children = (
+				95F5FDB327BD963600E2FE2A /* README.md */,
 				9581F7BD2727751600E70417 /* fStopTimer */,
 				9581F7BC2727751600E70417 /* Products */,
 			);
@@ -57,6 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				9581F7BE2727751600E70417 /* AppDelegate.swift */,
+				9581F7D2272783BD00E70417 /* TimeView.swift */,
+				9581F7D42729F6F600E70417 /* ExposureTimes.swift */,
+				9581F7D6272A069600E70417 /* ExposureCalculator.swift */,
+				955AAE97272C836C00F02221 /* ExposureCalculatorViewModel.swift */,
 				9581F7C02727751600E70417 /* SceneDelegate.swift */,
 				9581F7C22727751600E70417 /* ViewController.swift */,
 				9581F7C42727751600E70417 /* Main.storyboard */,
@@ -138,9 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9581F7D52729F6F600E70417 /* ExposureTimes.swift in Sources */,
 				9581F7C32727751600E70417 /* ViewController.swift in Sources */,
+				9581F7D7272A069700E70417 /* ExposureCalculator.swift in Sources */,
 				9581F7BF2727751600E70417 /* AppDelegate.swift in Sources */,
 				9581F7C12727751600E70417 /* SceneDelegate.swift in Sources */,
+				955AAE98272C836D00F02221 /* ExposureCalculatorViewModel.swift in Sources */,
+				9581F7D3272783BD00E70417 /* TimeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
